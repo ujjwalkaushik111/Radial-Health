@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.height {
+    min-height: 50vh;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.p-33 {
+    padding-left: 25px;
+}
+
+.logo {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #233348;
+    mix-blend-mode: normal;
+}
+
+.name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+.h1-virtual {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    max-width: 427px;
+    margin-bottom: 20px;
+}
+
+.p-radial {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+
+.b-consult {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    background: #458FF6;
+    border-radius: 55px;
+    padding: 16px 40px;
+    border: none;
+}
+
+.name-bold {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1F1534;
+
+}
+
+.h1-Our {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.line-2 {
+    width: 56px !important;
+    height: 2px !important;
+    text-align: center;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.line-2::after {
+    content: " ";
+    position: absolute;
+    height: 1%;
+    width: 0%;
+    background: #2C49FE;
+    z-index: 1;
+    transition: all 333ms linear;
+
+}
+
+.line-2:hover::after {
+    width: 100%;
+
+}
+
+
+
+.underline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    height: 2px;
+    width: 56px;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: all 300ms linear;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    height: 2px;
+    width: 0px;
+    background-color: #3225a0;
+    border-radius: 5px;
+    transition: all 300ms linear;
+    z-index: 11111;
+}
+
+.underline:hover::after {
+    background-color: #2624ad;
+    width: 56px;
+}
+
+
+
+
+.line-3 {
+    width: 56px;
+    height: 2px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.h1-check {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.h-white {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    mix-blend-mode: normal;
+}
+
+.p-Rad {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 391px;
+}
+
+.R-white {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.h1-font {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+    max-width: 350px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.p-we {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #7D7987;
+    margin-top: 30px;
+    max-width: 952px;
+    mix-blend-mode: normal;
+}
+
+.p-color {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #7D7987;
+    padding-top: 10px;
+    mix-blend-mode: normal;
+    max-width: 420px;
+}
+
+.ps-5 {
+    padding-left: 9rem !important;
+}
+
+.mb-bottom {
+    margin-bottom: 12%;
+}
+
+.my-5 {
+    margin-top: 12rem !important;
+    margin-bottom: 9rem !important;
+}
+
+.box-1 {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.box-2 {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.box-3 {
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 40px !important;
+}
+
+.box-R {
+    color: #4089ED;
+    height: 41px;
+    width: 41px;
+    border-radius: 100px;
+    padding: 5px 12px;
+    background-color: #FFFFFF;
+
+}
+
+.box-R-UP {
+    color: #FFFFFF;
+    height: 41px;
+    width: 41px;
+    border-radius: 100px;
+    padding: 5px 12px;
+    background-color: #4089ED;
+
+}
+
+.position-abs-2 {
+    position: absolute;
+    left: 38%;
+}
+
+.position-abs {
+    position: absolute;
+    right: 38%;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -55px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 12px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgba(91, 155, 243, 1) !important;
+    opacity: 0.3 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.90 !important;
+    color: rgba(91, 155, 243, 1) !important;
+}
+
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+
+.h1-Ed {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    max-width: 184px;
+    mix-blend-mode: normal;
+}
+
+.h1-what {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.h1-header {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #000000;
+    mix-blend-mode: normal
+}
+
+.h1-dark {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #000000;
+    max-width: 261px;
+    mix-blend-mode: normal;
+}
+
+.p-pgf {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    max-width: 266px;
+}
+
+.p-fo {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.85);
+    mix-blend-mode: normal;
+    max-width: 420px;
+}
+
+.p-read {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+}
+
+.button-learn {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    padding: 1px 55px;
+    mix-blend-mode: normal;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.position-absolute-3 {
+    position: absolute;
+    margin-left: -48px;
+    top: 10%;
+
+}
+
+.bg-color {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.abs-1 {
+    position: absolute;
+    top: 82%;
+    margin-left: -15px;
+}
+
+.abs-2 {
+    position: absolute;
+    bottom: -24%;
+    right: 10%;
+}
+
+.abs-3 {
+    position: absolute;
+    Top: -5%;
+    right: -4%;
+}
+
+.abs-4 {
+    position: absolute;
+    bottom: 24%;
+    left: -3%;
+}
+
+.abs-5 {
+    position: absolute;
+    top: 0%;
+    right: -3%;
+}
+
+.abs-6 {
+    position: absolute;
+    top: 45%;
+    right: -3%;
+}
+
+.abs-7 {
+    position: absolute;
+    top: 1%;
+    left: -3%;
+}
+
+.top-30 {
+    top: 35%;
+}
+
+footer ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .h1-font {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .h1-virtual {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .p-33 {
+        padding-left: 0;
+        padding-bottom: 10px;
+
+    }
+
+    .display-none-1 {
+        display: none;
+    }
+
+    .P-Left {
+        padding-left: 68px;
+    }
+
+    .ps-5 {
+        padding-left: 4rem !important;
+    }
+
+    .flex-column-1 {
+        flex-direction: column-reverse;
+    }
+
+    .proudct {
+        padding-bottom: 10px;
+    }
+
+    label[for="menuIcon"] {
+        width: 35px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 3;
+        position: relative;
+    }
+
+
+
+    label[for="menuIcon"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: rgb(224, 142, 167);
+    }
+
+    .flex_sm_column {
+        flex-direction: column;
+    }
+
+    .sm-screen {
+        flex-direction: column;
+        position: fixed;
+        z-index: 2;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 204, 255);
+        justify-content: center;
+        opacity: 0;
+        left: -100%;
+        pointer-events: none;
+        transition: all 300ms linear;
+    }
+
+    input[type="checkbox"]:checked~.nav_bar {
+        opacity: 1;
+        left: 0;
+        pointer-events: all;
+    }
+
+    .flex-col {
+        flex-direction: column;
+
+    }
+
+}
+
+@media (max-width:760px) {
+    .h1-what {
+        font-size: 17px;
+    }
+
+    .w-md-100 {
+        width: 100%;
+    }
+
+    .my-5-sm {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .p-5-sm {
+        padding: 1rem !important;
+    }
+}
