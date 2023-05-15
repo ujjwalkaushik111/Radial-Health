@@ -38,6 +38,10 @@
     opacity: 0.5;
 }
 
+.name:hover {
+    color: #2624ad;
+}
+
 .h1-virtual {
     font-family: 'Mulish';
     font-style: normal;
@@ -78,6 +82,10 @@
     font-size: 18px;
     color: #1F1534;
 
+}
+
+.name-bold:hover {
+    color: #2C49FE;
 }
 
 .h1-Our {
@@ -230,7 +238,18 @@
     color: #7D7987;
     padding-top: 10px;
     mix-blend-mode: normal;
-    max-width: 420px;
+    max-width: 369px;
+}
+
+.p-color-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #7D7987;
+    padding-top: 10px;
+    mix-blend-mode: normal;
+    max-width: 403px;
 }
 
 .ps-5 {
