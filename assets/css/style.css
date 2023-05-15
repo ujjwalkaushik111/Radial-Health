@@ -36,11 +36,17 @@
     font-size: 18px;
     color: #1F1534;
     opacity: 0.5;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: transparent;
+    transition: 300ms linear;
 }
 
 .name:hover {
-    color: #2624ad;
+    color: #2C49FE;
+    -webkit-text-stroke: 1px;
 }
+
+
 
 .h1-virtual {
     font-family: 'Mulish';
@@ -93,6 +99,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    margin-top: 15%;
     margin-bottom: 30px;
     text-align: center;
     color: #000000;
@@ -261,8 +268,8 @@
 }
 
 .my-5 {
-    margin-top: 12rem !important;
-    margin-bottom: 9rem !important;
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
 }
 
 .box-1 {
@@ -360,6 +367,7 @@ ul {
     color: #FFFFFF;
     max-width: 184px;
     mix-blend-mode: normal;
+    white-space: nowrap;
 }
 
 .h1-what {
@@ -433,7 +441,15 @@ ul {
     border: 1.4px solid #458FF6;
     border-radius: 55px;
     background-color: rgb(255, 255, 255);
+}
 
+.button-learn:hover {
+    color: #FFFFFF;
+    background-color: #458FF6;
+}
+
+.button-learn:hover .arrow_path {
+    fill: white;
 }
 
 .position-absolute-3 {
@@ -489,6 +505,11 @@ ul {
     left: -3%;
 }
 
+.position-sticky-2 {
+    position: sticky !important;
+}
+
+
 .top-30 {
     top: 35%;
 }
@@ -505,6 +526,8 @@ input[type="checkbox"] {
     display: none;
 }
 
+
+
 @media (max-width:1200px) {
     .h1-font {
         font-size: 24px;
@@ -515,6 +538,16 @@ input[type="checkbox"] {
         font-size: 30px;
     }
 
+}
+
+@media(min-width:1130px) {
+    .container {
+        max-width: 1140px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
 }
 
 @media (max-width:992px) {
@@ -612,5 +645,28 @@ input[type="checkbox"] {
 
     .p-5-sm {
         padding: 1rem !important;
+    }
+
+    .h1-Ed {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:556px) {
+    .w-25-sm {
+        width: 25%;
+    }
+
+    .ps-5 {
+        padding-left: 1rem !important;
+    }
+
+    .P-Left {
+        padding-left: 20px;
+    }
+
+    .my-5 {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
     }
 }

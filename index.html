@@ -15,65 +15,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/image/logo-R.svg" type="image/x-icon">
 </head>
 
 <body>
-    <section class=" d-flex flex-column">
-        <header class="d-flex flex-column">
-            <nav class="container mt-5 w-100">
-                <div class="d-flex justify-content-between align-items-center w-100">
-                    <ul class="d-flex align-items-center">
-                        <li>
-                            <a class="logo" href="#"> <span class="box-R-UP me-2">R</span> Radial-Health</a>
-                        </li>
-                    </ul>
-                    <input type="checkbox" id="menuIcon">
-                    <label for="menuIcon" class="display-none">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                    <ul class="d-flex nav_bar align-items-center sm-screen ">
-                        <li class="proudct">
-                            <a class="name-bold" href="#">Home</a>
-                        </li>
-                        <li class="p-33">
-                            <a class="name" href="#">Find a doctor</a>
-                        </li>
-                        <li class="p-33">
-                            <a class="name" href="#">Apps</a>
-                        </li>
-                        <li class="p-33">
-                            <a class="name" href="#">Testimonials</a>
-                        </li>
-                        <li class="p-33">
-                            <a class="name" href="#">About us</a>
-                        </li>
-                    </ul>
 
-                </div>
-            </nav>
-        </header>
-    </section>
-    <section class="position-relative">
-        <img class="abs-7" src="assets/image/dots.png" alt="#">
-        <div class="container mt-5 mb-bottom">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-12">
-                    <h1 class="h1-virtual">Virtual healthcare
-                        for you</h1>
-                    <p class="p-radial">Radial-Health provides progressive, and affordable
-                        healthcare, accessible on mobile and online
-                        for everyone</p>
-                    <button class="b-consult mt-4 ">Consult today</button>
-                </div>
-                <div class="col-lg-7 col-12">
-                    <img class="w-100" src="assets/image/doctor-learning.png" alt="doctor-learning">
+    <!-- HEADER SECTION -->
+    <header class="d-flex flex-column min-vh-100">
+        <!-- NAVBAR -->
+        <section class="bg-white position-fixed w-100 z-2">
+            <header class="d-flex flex-column ">
+                <nav class="container mt-5 w-100">
+                    <div class="d-flex justify-content-between w-100">
+                        <ul class="d-flex align-items-center">
+                            <li>
+                                <a class="logo" href="#"> <span class="box-R-UP me-2">R</span> Radial-Health</a>
+                            </li>
+                        </ul>
+                        <input type="checkbox" id="menuIcon">
+                        <label for="menuIcon" class="display-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="d-flex nav_bar align-items-center sm-screen ">
+                            <li class="proudct">
+                                <a class="name-bold" href="#">Home</a>
+                            </li>
+                            <li class="p-33">
+                                <a class="name" href="#">Find a doctor</a>
+                            </li>
+                            <li class="p-33">
+                                <a class="name" href="#">Apps</a>
+                            </li>
+                            <li class="p-33">
+                                <a class="name" href="#">Testimonials</a>
+                            </li>
+                            <li class="p-33">
+                                <a class="name" href="#">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </section>
+        <!-- HERO-SECTION -->
+        <section class="position-relative flex-grow-1  d-flex justify-content-center align-items-center">
+            <img class="abs-7" src="assets/image/dots.png" alt="#">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-12">
+                        <h1 class="h1-virtual">Virtual healthcare
+                            for you</h1>
+                        <p class="p-radial">Radial-Health provides progressive, and affordable
+                            healthcare, accessible on mobile and online
+                            for everyone</p>
+                        <button class="b-consult mt-4 ">Consult today</button>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <img class="w-100" src="assets/image/doctor-learning.png" alt="doctor-learning">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
     <section class="position-relative">
         <img class=" position-absolute top-50 start-0 translate-middle-y z-n1 w-md-100"
             src="assets/image/back-image.png" alt="#">
@@ -181,9 +186,9 @@
                         <p class="p-color mt-3">Our dedicated patient engagement app and
                             web portal allow you to access information instantaneously (no tedeous form, long calls,
                             or administrative hassle) and securely</p>
-                        <button class="button-learn mt-4">Download <span><svg width="11" height="16" viewBox="0 0 11 16"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
+                        <button class="button-learn mt-4">Download <span class="ps-2"><svg width="11" height="16"
+                                    viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="arrow_path"
                                         d="M4.81945 1.05554L4.81945 12.6308L2.2764 10.0877C1.92563 9.73698 1.39948 9.73698 1.04872 10.0877C0.697953 10.4385 0.697953 10.9647 1.04872 11.3154L5.08252 15.3492C5.43329 15.7 5.95943 15.7 6.3102 15.3492L10.344 11.3154C10.6948 10.9647 10.6948 10.4385 10.344 10.0877C9.99323 9.73698 9.46709 9.73698 9.11632 10.0877L6.57327 12.6308L6.57327 1.05554C6.57327 0.617083 6.22251 0.178627 5.69636 0.178627C5.17021 0.178627 4.81945 0.617083 4.81945 1.05554Z"
                                         fill="#458FF6" />
                                 </svg>
@@ -207,9 +212,9 @@
                         <div class="d-flex justify-content-center align-items-center">
                             <span class="line-3"></span>
                         </div>
-                        <div class="row d-flex align-items-center p-5">
+                        <div class="row d-flex align-items-center p-1 p-lg-5">
                             <div class="col-lg-6 col-12 d-flex align-items-center ">
-                                <img src="assets/image/image-Man.png" alt="#">
+                                <img class="w-25-sm" src="assets/image/image-Man.png" alt="#">
                                 <div class="ps-4">
                                     <h1 class="h1-Ed"> Edward Newgate</h1>
                                     <p class="p-fo">Founder Circle</p>
@@ -231,9 +236,9 @@
                         <div class="d-flex justify-content-center align-items-center">
                             <span class="line-3"></span>
                         </div>
-                        <div class="row d-flex align-items-center p-5">
+                        <div class="row d-flex align-items-center p-1 p-lg-5">
                             <div class="col-lg-6 col-12 d-flex align-items-center ">
-                                <img src="assets/image/image-Man.png" alt="#">
+                                <img class="w-25-sm" src="assets/image/image-Man.png" alt="#">
                                 <div class="ps-4">
                                     <h1 class="h1-Ed"> Edward Newgate</h1>
                                     <p class="p-fo">Founder Circle</p>
@@ -255,9 +260,9 @@
                         <div class="d-flex justify-content-center align-items-center">
                             <span class="line-3"></span>
                         </div>
-                        <div class="row d-flex align-items-center  p-5">
+                        <div class="row d-flex align-items-center p-1 p-lg-5">
                             <div class="col-lg-6 col-12 d-flex align-items-center ">
-                                <img src="assets/image/image-Man.png" alt="#">
+                                <img class="w-25-sm" src="assets/image/image-Man.png" alt="#">
                                 <div class="ps-4">
                                     <h1 class="h1-Ed"> Edward Newgate</h1>
                                     <p class="p-fo">Founder Circle</p>
@@ -279,9 +284,9 @@
                         <div class="d-flex justify-content-center align-items-center">
                             <span class="line-3"></span>
                         </div>
-                        <div class="row d-flex align-items-center p-5">
+                        <div class="row d-flex align-items-center p-1 p-lg-5">
                             <div class="col-lg-6 col-12 d-flex align-items-center ">
-                                <img src="assets/image/image-Man.png" alt="#">
+                                <img class="w-25-sm" src="assets/image/image-Man.png" alt="#">
                                 <div class="ps-4">
                                     <h1 class="h1-Ed"> Edward Newgate</h1>
                                     <p class="p-fo">Founder Circle</p>
@@ -393,7 +398,7 @@
     <footer class="bg-color height d-flex align-items-center position-relative overflow-hidden">
         <img class="abs-1" src="assets/image/dots-2.png" alt="#">
 
-        <div class="container my-5-sm">
+        <div class="container my-5-sm py-3">
             <div class="row ">
                 <div class="col-xl-5 col-12">
                     <h1 class="R-white"><span class="box-R me-3">R</span>Radial-Health</h1>
@@ -445,16 +450,16 @@
                     <h1 class="h-white">Help</h1>
                     <ul class="p-0">
                         <li>
-                            <a href="#"> Help center</a>
+                            <a class="text-nowrap" href="#"> Help center</a>
                         </li>
                         <li>
-                            <a href="#">Contact support</a>
+                            <a class="text-nowrap" href="#">Contact support</a>
                         </li>
                         <li>
-                            <a href="#">Instructions</a>
+                            <a class="text-nowrap" href="#">Instructions</a>
                         </li>
                         <li>
-                            <a href="#">How it works</a>
+                            <a class="text-nowrap" href="#">How it works</a>
                         </li>
                     </ul>
                 </div>
@@ -481,22 +486,18 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
     <script>
-        $('.slider').slick({
+        $(' .slider').slick({
             infinite: true,
             dots: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplayspeed: 8,
-
             arrows: true,
             prevArrow: $('.prev'),
             nextArrow: $('.next'),
         });
     </script>
-
-
-
 </body>
 
 </html>
